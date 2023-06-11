@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/shamim/Documents/Coding/C Sharp/FirstProjectdotnet/FirstProjectdotnet.csproj": {}
+  },
+  "projects": {
+    "/home/shamim/Documents/Coding/C Sharp/FirstProjectdotnet/FirstProjectdotnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/shamim/Documents/Coding/C Sharp/FirstProjectdotnet/FirstProjectdotnet.csproj",
+        "projectName": "FirstProjectdotnet",
+        "projectPath": "/home/shamim/Documents/Coding/C Sharp/FirstProjectdotnet/FirstProjectdotnet.csproj",
+        "packagesPath": "/home/shamim/.nuget/packages/",
+        "outputPath": "/home/shamim/Documents/Coding/C Sharp/FirstProjectdotnet/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shamim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
